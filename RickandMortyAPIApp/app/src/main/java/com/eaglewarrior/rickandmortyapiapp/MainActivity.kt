@@ -19,13 +19,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        val nameTextView = findViewById<AppCompatTextView>(R.id.nameTextView)
-//        val headerImageView = findViewById<AppCompatImageView>(R.id.headerImageView)
-//        val aliveTextView = findViewById<AppCompatTextView>(R.id.aliveTextView)
-//        val originTextView = findViewById<AppCompatTextView>(R.id.textView)
-//        val speciesTextView = findViewById<AppCompatTextView>(R.id.speciesTextView)
-//        val genderImageView = findViewById<AppCompatImageView>(R.id.genderImageView)
-
         viewModel.characterByIdLiveData.observe(this) { response ->
 
             epoxyController.characterResponse = response
@@ -38,7 +31,7 @@ class MainActivity : AppCompatActivity() {
                 return@observe
             }
         }
-        viewModel.refreshCharacter(258)
+        viewModel.refreshCharacter(26)
 
         val epoxyRecyclerView = findViewById<EpoxyRecyclerView>(R.id.epoxyRecyclerView)
         epoxyRecyclerView.setControllerAndBuildModels(epoxyController)

@@ -28,27 +28,5 @@
         app:layout_constraintStart_toStartOf="@id/originLabelTextView"
         app:layout_constraintTop_toBottomOf="@id/originLabelTextView" />
 
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/speciesLabelTextView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:text="Species"
-        android:textColor="?attr/colorOnBackground"
-        android:textSize="24sp"
-        android:textStyle="italic"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/originTextView" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/speciesTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Human"
-        android:textColor="?attr/colorOnBackground"
-        android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@id/speciesLabelTextView"
-        app:layout_constraintTop_toBottomOf="@id/speciesLabelTextView" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

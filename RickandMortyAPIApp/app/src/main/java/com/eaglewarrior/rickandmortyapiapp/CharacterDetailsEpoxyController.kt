@@ -107,8 +107,6 @@ class CharacterDetailsEpoxyController : EpoxyController() {
         override fun ModelCharacterDetailsDataPointBinding.bind() {
             originLabelTextView.text = title
             originTextView.text = description
-            speciesLabelTextView.text = title
-            speciesTextView.text =description
         }
     }
 }
