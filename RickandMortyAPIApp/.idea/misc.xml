@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AppsCreation/1.GitHub_Repositories/Rick_and_Morty_API_App/RickandMortyAPIApp/app/src/main/res/layout/model_character_details_data_point.xml" value="0.18611111111111112" />
+        <entry key="..\:/AppsCreation/1.GitHub_Repositories/Rick_and_Morty_API_App/RickandMortyAPIApp/app/src/main/res/layout/model_character_details_header.xml" value="0.18611111111111112" />
+        <entry key="..\:/AppsCreation/1.GitHub_Repositories/Rick_and_Morty_API_App/RickandMortyAPIApp/app/src/main/res/layout/model_character_details_image.xml" value="0.18611111111111112" />
         <entry key="..\:/AppsCreation/RickandMortyAPIApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/AppsCreation/RickandMortyAPIApp/app/src/main/res/layout/model_character_details_data_point.xml" value="0.3020833333333333" />
         <entry key="..\:/AppsCreation/RickandMortyAPIApp/app/src/main/res/layout/model_character_details_header.xml" value="0.3020833333333333" />
